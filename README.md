@@ -1,5 +1,5 @@
-After cloning this project, it is recommended you use pyenv to switch to the relevant version of the python interpreter used for this project by running the following command: pyenv local 3.10.6
-Should this specific version of the python interpreter not being available from your machine, then set it up by using pyenv
+After cloning this project, it is recommended you use pyenv to switch to the relevant version of the python interpreter used for this project by running the following command: pyenv local 3.10.6. Should this specific version of the python interpreter not being available from your machine, then set it up by using pyenv
+
 You will then need to use poetry to build the Virtual Environment from the toml file, to this end, run the following command: poetry install
 Activate the Virtual Environment using poetry, therefore executing the following command: poetry shell
 Make sure you can run your program by executing the following command: python3 main.py
